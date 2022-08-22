@@ -63,12 +63,17 @@ body{
 
 /*INICIO: SECTION_ABOUT*/
 .about{
-   margin: 0 18px;
+    display: flex;
+    gap: 32px;
+    margin:18px;
 }
-.mision, .vision{
+.mision, .vision_mobile, .vision_pc{
     display: flex;
     align-items: center;
-    
+
+}
+.vision_mobile{
+    display: none;
 }
 .about img{
     width: 100px;
@@ -78,6 +83,55 @@ line-height: 18px;
 }
 
 /*FIN: SECTION_ABOUT*/
+
+/*INICIO: SECTION EXPERIENCIAS*/
+.section_servicios{
+    background-color: #f8fafcfa;
+}
+.section_titulo{
+    text-align: center;
+    font-size: 28px;
+}
+.list_servicios{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    border: 3px solid #daa4b0;
+    width: 20%;
+    height: 246px;
+    margin: 10px 10px;
+}
+.item h1{
+    font-size: 18px;
+    text-align: center;
+}
+.item img{
+    width: 240px;
+    height: 200px;
+}
+/*FIN: SECTION EXPERIENCIAS*/
+
+/*INICIO: FOOTER*/
+
+.footer{
+    background-color: #293241;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 17px;
+    padding: 0 18px;
+}
+/*FIN: FOOTER*/
+
 @media (max-width: 700px){
 
     .nav_label{
@@ -104,6 +158,24 @@ line-height: 18px;
     }
     .nav_input:checked + .nav_menu{
         clip-path: circle(100% at center);
+    }
+
+   
+    .about{
+        flex-direction: column;
+    }
+    .vision_pc{
+        display: none;
+    }
+    .vision_mobile{
+        display: flex;
+    }
+    .list_servicios{
+        flex-direction: column;
+        
+    }
+    .item{
+        width: 90%;
     }
 
 }
