@@ -59,7 +59,24 @@ body{
     font-size: 1.5em;
     font-weight: 900;
 }
+/*FIN: ESTILOS DEL MENU*/
 
+/*INICIO: SECTION_ABOUT*/
+.about{
+   margin: 0 18px;
+}
+.mision, .vision{
+    display: flex;
+    align-items: center;
+}
+.about img{
+    width: 100px;
+}
+.about p{
+line-height: 18px;
+}
+
+/*FIN: SECTION_ABOUT*/
 @media (max-width: 700px){
 
     .nav_label{
@@ -89,4 +106,4 @@ body{
     }
 
 }
-/*FIN: ESTILOS DEL MENU*/
+
