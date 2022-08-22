@@ -68,6 +68,7 @@ body{
 .mision, .vision{
     display: flex;
     align-items: center;
+    
 }
 .about img{
     width: 100px;
