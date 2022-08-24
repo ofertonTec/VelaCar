@@ -84,7 +84,7 @@ line-height: 18px;
 
 /*FIN: SECTION_ABOUT*/
 
-/*INICIO: SECTION EXPERIENCIAS*/
+/*INICIO: SECTION SERVICIOS*/
 .section_servicios{
     background-color: #f8fafcfa;
 }
@@ -117,7 +117,15 @@ line-height: 18px;
     width: 240px;
     height: 200px;
 }
-/*FIN: SECTION EXPERIENCIAS*/
+/*FIN: SECTION SERVICIOS*/
+
+/*INICIO: SECTION MAPA*/
+
+.mapa{
+    padding: 0 18px;
+}
+/*FIN: SECTION MAPA*/
+
 
 /*INICIO: FOOTER*/
 
